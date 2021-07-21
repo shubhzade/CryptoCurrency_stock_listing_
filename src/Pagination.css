@@ -1,0 +1,41 @@
+.btn {
+  width: 20px;
+  background-color: purple;
+  background: none;
+  color: #625f6e;
+  border-radius: 24px;
+  border: none;
+  height: 5vh;
+}
+.btn:hover {
+  cursor: pointer;
+  width: 20px;
+  height: 5vh;
+
+  background-color: royalblue;
+  /* color: black; */
+  border-radius: 24px;
+  color: white;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+.pagin_botom {
+  /* display: flex; */
+  display: block;
+  margin-left: auto;
+  background: white;
+  border: none;
+  color: white;
+  /* justify-content: flex-end; */
+}
+.pagin_left {
+  background: #f1f1f1;
+  width: fit-content;
+  border-radius: 30px;
+  align-items: center;
+  border: none;
+  border: #f1f1f1;
+  margin-left: auto;
+  /* margin-bottom: 10px; */
+}
